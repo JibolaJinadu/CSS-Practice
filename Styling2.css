@@ -1,0 +1,39 @@
+Body{
+    Background-color:#a8e6cf;
+    Color:#1a1e8d;
+    margin-left: 70px;
+}
+h1, h2{
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+
+/*Specificity: Webpage result shows that the ID selectors more priority, more specificity than the Class selector in both list*/
+.list{
+    color:blue;
+    font-size: 12px;
+    Text-align: center;
+    margin-top: 50px; 
+}
+#likes{
+    color: green;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 0px;
+}
+#dislikes{
+    color: red;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 2px;
+ }
+
+
+/*Inheritance: here, webpage result shows that each child styling supercede the inherited property from the parent, be it ID or class, meanwhile where there is no individual styling for the children, they inherite property from the parent.*/
+.first-like{
+    color: orange;
+ }
+ #second-dislike{
+    color: orange;
+ }
